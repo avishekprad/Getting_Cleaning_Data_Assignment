@@ -1,7 +1,7 @@
 # CodeBook 
 ## Avishek
 
-##Variables
+Variables
 - the datasets are downloaded into the variables activityDesc, selectedFeatures, subject_test, x_test, y_test,
   subject_train, x_train,y_train.
 - The mergeTrainData variable combines the training data under one variable by binding subject_train,y_train,x_train variables.
@@ -21,4 +21,4 @@ Use descriptive activity names
 Tidy set
 -Using ddply function the average of the measurement columns ( with mean() or std() ) is calculated.
 -The result dataset is saved under 'theDataSet'
-- theDataSet is then written to an external .txt file
+- theDataSet is then written to an external .txt file. It contains 180 rows (30 subject ids * 6 activities) 
